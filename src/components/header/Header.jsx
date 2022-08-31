@@ -1,14 +1,20 @@
-import React from 'react';
+import React, { useState }  from 'react';
 import "./header.css";
 
 
 const Header = () => {
+
+    /* show menu */
+    const [click, setClick] = useState(false);
+    const handleClick = () => setClick(!click);
+    const closeMenu = () => setClick(false)
+
   return (
     <header className='header'>
         <nav className="nav container">
             <a href="index.html" className="nav__logo">BG</a>
 
-            <div className="nav__menu">
+            <div className={click ? "nav__menu  show-menu" : "nav__menu "}>
                 <ul className="nav__list grid">
                     <li className="nav__item">
                         <a href="/" className="nav__link active-link">
@@ -40,9 +46,9 @@ const Header = () => {
                         </a>
                     </li>
                 </ul>
-                <i class="uil uil-times nav__close"></i>
+                <i class="uil uil-times nav__close" onClick={closeMenu}></i>
             </div>
-            <div className='nav__toggle'>
+            <div className='nav__toggle' onClick={handleClick}>
                 <i class="uil uil-bars"></i>
             </div>
         </nav>

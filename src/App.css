@@ -148,10 +148,11 @@ img {
     padding: 1.25rem 2rem;
     border-radius: 1rem;
     font-weight: var(--font-medium);
+    transition: .3s;
 }
 
 .button:hover {
-    background-color: var(--title-color-dark);
+    background-color: var(--hover-color);
 }
 
 .button__icon {
@@ -163,21 +164,24 @@ img {
     align-items: center;
 }
 
-@media screen and (max-widht: 992px) {
+@media screen and (max-width: 992px) {
     .container {
         margin-left: var(--mb-1-5);
         margin-right: var(--mb-1-5);
     }
 }
 
-@media screen and (max-widht: 768px) {
+@media screen and (max-width: 768px) {
 
 }
 
-@media screen and (max-widht: 576px) {
+@media screen and (max-width: 576px) {
 
 }
 
-@media screen and (max-widht: 350px) {
-
+@media screen and (max-width: 350px) {
+    .container {
+        margin-left: var(--mb-1);
+        margin-right: var(--mb-1);
+    }
 }
