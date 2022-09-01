@@ -118,14 +118,14 @@ img {
     color: var(--title-color);
 }
 
-.section__title {
+.section__subtitle {
     display: block;
     font-size: var(--small-font-size);
     margin-bottom: 4rem;
 }
 
 .section__title,
-.section__title {
+.section__subtitle {
     text-align: center;
 }
 
