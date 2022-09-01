@@ -20,7 +20,6 @@ const About = () => {
           </p>
           <a Download="" href={Cv} className="button">Download CV</a>
         </div>
-        
       </div>
     </section>
   )

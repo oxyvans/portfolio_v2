@@ -29,7 +29,7 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="/" className="nav__link">
+                        <a href="#quali" className="nav__link">
                             <i class="uil uil-file-check-alt nav__icon" onClick={closeMenu}></i>Skills
                         </a>
                     </li>
