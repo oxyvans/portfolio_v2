@@ -16,33 +16,33 @@ const Header = () => {
 
             <div className={click ? "nav__menu  show-menu" : "nav__menu "}>
                 <ul className="nav__list grid">
-                    <li className="nav__item">
+                    <li className="nav__item" onClick={closeMenu}>
                         <a href="#home" className="nav__link active-link">
-                            <i class="uil uil-estate nav__icon" onClick={closeMenu}></i>Home
+                            <i class="uil uil-estate nav__icon"></i>Home
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#about" className="nav__link">
-                            <i class="uil uil-user-circle nav__icon" onClick={closeMenu}></i>About
+                        <a href="#about" className="nav__link" onClick={closeMenu}>
+                            <i class="uil uil-user-circle nav__icon"></i>About
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#quali" className="nav__link">
-                            <i class="uil uil-file-check-alt nav__icon" onClick={closeMenu}></i>Skills
+                        <a href="#quali" className="nav__link" onClick={closeMenu}>
+                            <i class="uil uil-file-check-alt nav__icon" ></i>Skills
                         </a>
                     </li>
 
-                    <li className="nav__item">
+                    <li className="nav__item" onClick={closeMenu}>
                         <a href="/" className="nav__link">
-                            <i class="uil uil-bag-alt nav__icon" onClick={closeMenu}></i>Portfolio
+                            <i class="uil uil-bag-alt nav__icon"></i>Portfolio
                         </a>
                     </li>
 
-                    <li className="nav__item">
+                    <li className="nav__item" onClick={closeMenu}>
                         <a href="/" className="nav__link">
-                            <i class="uil uil-envelope-upload nav__icon" onClick={closeMenu}></i>Contact
+                            <i class="uil uil-envelope-upload nav__icon"></i>Contact
                         </a>
                     </li>
                 </ul>

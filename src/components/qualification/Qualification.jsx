@@ -36,6 +36,12 @@ const Qualification = () => {
     
         },
         {
+            titulo: "Web-Page-2",
+            lugar: "LaYapla",
+            date: "2022"
+    
+        },
+        {
             titulo: "Web-Page",
             lugar: "DelEsteGym",
             date: "2022"
@@ -48,7 +54,16 @@ const Qualification = () => {
         let aux = study;
         click === 1 ? (aux = study) : (aux = experiens);
 
-        return (<Left s={aux[0]} />);
+        return (<Left s={aux} />);
+    
+    };
+
+    const renderr = (study, experiens)=> {
+
+        let aux = study;
+        click === 1 ? (aux = study) : (aux = experiens);
+
+        return (<Right s={aux} />);
     
     };
 
@@ -67,7 +82,9 @@ const Qualification = () => {
                     <i class="uil uil-bag-alt"></i>Experience
                 </div>
             </div>
-            {render(study, experiens)}
+            {render(study[0], experiens[0])}
+            {renderr(study[1], experiens[1])}
+            {render(study[2], experiens[2])}
         </div>
     </section>
   )
