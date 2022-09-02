@@ -31,14 +31,14 @@ const Qualification = () => {
         ]
         const experiens = [
             {
-                titulo: "Web-Page",
+                titulo: "Web Page",
                 lugar: "LaYapla",
                 date: "2022"
         
             },
             {
-                titulo: "Web-Page-2",
-                lugar: "LaYapla",
+                titulo: "Web Page",
+                lugar: "DelEsteGym",
                 date: "2022"
         
             }
