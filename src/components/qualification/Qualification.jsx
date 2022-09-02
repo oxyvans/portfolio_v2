@@ -3,68 +3,68 @@ import "./qualification.css"
 import Left from './Left'
 import Right from './Right'
 
-
 const Qualification = () => {
     /* show  */
     const [click, setClick] = useState(1);
     const handleEducation = () => setClick(1);
     const handleExperience = () => setClick(2);
 
-    const study = [
-        {
-            titulo: "Software Developer",
-            lugar: "FING-UDELAR",
-            date: "2018-Present"
-    
-        },
-        {
-            titulo: "WEB PHP Y MYSQL",
-            lugar: "WEB PHP Y MYSQL",
-            date: "2020-2020"
-        },
-        {
-            titulo: "Full Stack Developer",
-            lugar: "Holberton",
-            date: "2022-2022"
-        }
-    ]
-    const experiens = [
-        {
-            titulo: "Web-Page",
-            lugar: "LaYapla",
-            date: "2022"
-    
-        },
-        {
-            titulo: "Web-Page-2",
-            lugar: "LaYapla",
-            date: "2022"
-    
-        },
-        {
-            titulo: "Web-Page",
-            lugar: "DelEsteGym",
-            date: "2022"
-    
-        }
-    ]
-
-    const render = (study, experiens)=> {
-
+    /* data base  */
+    const render = ()=> {
+        const study = [
+            {
+                titulo: "Software Developer",
+                lugar: "FING-UDELAR",
+                date: "2018-Present"
+        
+            },
+            {
+                titulo: "WEB PHP Y MYSQL",
+                lugar: "WEB PHP Y MYSQL",
+                date: "2020-2020"
+            },
+            {
+                titulo: "Full Stack Developer",
+                lugar: "Holberton",
+                date: "2022-2022"
+            }
+        ]
+        const experiens = [
+            {
+                titulo: "Web-Page",
+                lugar: "LaYapla",
+                date: "2022"
+        
+            },
+            {
+                titulo: "Web-Page-2",
+                lugar: "LaYapla",
+                date: "2022"
+        
+            }
+        ]
         let aux = study;
         click === 1 ? (aux = study) : (aux = experiens);
 
-        return (<Left s={aux} />);
+          return (
+            <div>
+                {
+                aux.map((aux, index) => (
+                    vew(aux,index)
+                ))
+                }
+            </div>
+          )
     
     };
 
-    const renderr = (study, experiens)=> {
-
-        let aux = study;
-        click === 1 ? (aux = study) : (aux = experiens);
-
-        return (<Right s={aux} />);
-    
+    /* Left and Right  */
+    const vew = (aux, i) => {
+        if (i % 2 === 0) {
+            return <Left s={aux}/>
+        }else{
+            return <Right s={aux}/>
+        }
     };
 
   return (
@@ -82,9 +82,7 @@ const Qualification = () => {
                     <i class="uil uil-bag-alt"></i>Experience
                 </div>
             </div>
-            {render(study[0], experiens[0])}
-            {renderr(study[1], experiens[1])}
-            {render(study[2], experiens[2])}
+            {render()}
         </div>
     </section>
   )
