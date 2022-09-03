@@ -2,6 +2,7 @@ import React from 'react'
 import "./skills.css"
 import Front from './Front'
 import Back from './Back'
+import Skills_img from './Skills_img'
 
 const Skills = () => {
   return (
@@ -13,6 +14,7 @@ const Skills = () => {
                 <Front />
                 <Back />
             </div>
+            <Skills_img />
     </section>
   )
 }
