@@ -59,7 +59,7 @@ const Back = () => {
                 </div>
 
                 <div className='skills__data-'>
-                <i class="uil uil-check-circle-"></i>
+                <i class="uil uil-check-circle"></i>
                 <div>
                     <h3 className='skills__name-'>HTML5</h3>
                     <span className='skills__level-'>Intermediate</span>
