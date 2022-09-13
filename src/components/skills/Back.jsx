@@ -10,7 +10,7 @@ const Back = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>Python</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -18,7 +18,15 @@ const Back = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>C</h3>
+                    <span className='skills__level-'>Advanced</span>
+                </div>
+                </div>
+
+                <div className='skills__data-'>
+                <i class="uil uil-check-circle"></i>
+                <div>
+                    <h3 className='skills__name-'>Mysql</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -26,15 +34,7 @@ const Back = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
-                    <span className='skills__level-'>Intermediate</span>
-                </div>
-                </div>
-
-                <div className='skills__data-'>
-                <i class="uil uil-check-circle"></i>
-                <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>C++</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -45,7 +45,7 @@ const Back = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>Bash</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -53,7 +53,7 @@ const Back = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>Git</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -61,7 +61,7 @@ const Back = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>Nginx</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -69,7 +69,7 @@ const Back = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>Apache</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>

@@ -18,7 +18,7 @@ const Front = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>CSS3</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -26,7 +26,7 @@ const Front = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>JavaScript</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -34,7 +34,7 @@ const Front = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>React</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -45,7 +45,23 @@ const Front = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
+                    <h3 className='skills__name-'>Ux</h3>
+                    <span className='skills__level-'>Basic</span>
+                </div>
+                </div>
+
+                <div className='skills__data-'>
+                <i class="uil uil-check-circle"></i>
+                <div>
+                    <h3 className='skills__name-'>Ui</h3>
+                    <span className='skills__level-'>Basic</span>
+                </div>
+                </div>
+
+                <div className='skills__data-'>
+                <i class="uil uil-check-circle"></i>
+                <div>
+                    <h3 className='skills__name-'>Bootstrap</h3>
                     <span className='skills__level-'>Intermediate</span>
                 </div>
                 </div>
@@ -53,24 +69,8 @@ const Front = () => {
                 <div className='skills__data-'>
                 <i class="uil uil-check-circle"></i>
                 <div>
-                    <h3 className='skills__name-'>HTML5</h3>
-                    <span className='skills__level-'>Intermediate</span>
-                </div>
-                </div>
-
-                <div className='skills__data-'>
-                <i class="uil uil-check-circle"></i>
-                <div>
-                    <h3 className='skills__name-'>HTML5</h3>
-                    <span className='skills__level-'>Intermediate</span>
-                </div>
-                </div>
-
-                <div className='skills__data-'>
-                <i class="uil uil-check-circle"></i>
-                <div>
-                    <h3 className='skills__name-'>HTML5</h3>
-                    <span className='skills__level-'>Intermediate</span>
+                    <h3 className='skills__name-'>WordPress</h3>
+                    <span className='skills__level-'>Basic</span>
                 </div>
                 </div>
                 
