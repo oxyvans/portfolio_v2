@@ -1,0 +1,46 @@
+.work__filter {
+    display: flex;
+    align-items: center;
+    column-gap: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.work__item {
+    cursor: pointer;
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+}
+
+.work__item:hover {
+    color: var(--hover-color);
+}
+
+.work__container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.8rem;
+}
+
+.work__card {
+    position: relative;
+    overflow: hidden;
+}
+
+.work__mask {
+    background-color: var(--text-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.work__categoty {
+    color: var(--title-color-dark);
+    font-size: var(--normal-font-size);
+    background-color: var(--hover-color);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+    display: inline-block;
+    padding: 0.2rem 0.65rem;
+}

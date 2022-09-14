@@ -1,4 +1,4 @@
-import Work1 from "../../assets/1.png"
+import Work1 from "../../assets/front.jpg"
 
 const Menu = [
     {
@@ -21,6 +21,18 @@ const Menu = [
     },
     {
         id: 4,
+        img: Work1,
+        title: "Holberton",
+        category: "Dev-Ops",
+    },
+    {
+        id: 5,
+        img: Work1,
+        title: "Holberton",
+        category: "Dev-Ops",
+    },
+    {
+        id: 6,
         img: Work1,
         title: "Holberton",
         category: "Dev-Ops",

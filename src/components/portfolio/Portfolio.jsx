@@ -24,12 +24,12 @@ const Portfolio = () => {
                 return (
                     <div className='work__card' key={id}>
                         <div className='work__preview'>
-                            <img  className='work__img' src={img} alt="" />
+                            <img  className='work__img img' src={img} alt="" />
                             <div className='work__mask'></div>
                         </div>
                         <span className='work__categoty'>{category}</span>
                         <h3 className='work__title'>{title}</h3>
-                        <a href="#" className='work__button button'>
+                        <a href="#" className='work__button'>
                             <i class="uil uil-link-alt"></i>
                         </a>
                     </div>
