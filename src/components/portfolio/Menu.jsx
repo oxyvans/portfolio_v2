@@ -2,7 +2,6 @@ import Work1 from "../../assets/1.png"
 import Work2 from "../../assets/2.png"
 import Work3 from "../../assets/3.png"
 import Work4 from "../../assets/4.png"
-import Work5 from "../../assets/5.png"
 import Work6 from "../../assets/6.png"
 
 const Menu = [
@@ -32,7 +31,7 @@ const Menu = [
     },
     {
         id: 5,
-        img: Work5,
+        img: Work3,
         title: "holbertonschool-system_engineering-devops",
         category: "Dev-Ops",
     },

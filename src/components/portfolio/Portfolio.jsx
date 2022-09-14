@@ -1,9 +1,16 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import "./profolio.css"
 import Menu from "./Menu"
 
 const Portfolio = () => {
   const [item, setItem] = useState(Menu);
+  const filterItem = (categoryItem) => {
+    const updatedItems = Menu.filter((curElem) =>{
+        return curElem.category === categoryItem;
+    });
+
+    setItem(updatedItems);
+  }
 
   return (
     <section className='work container section' id='work'>
@@ -11,11 +18,11 @@ const Portfolio = () => {
         <samp className='section__subtitle'>Works && Proyect</samp>
 
         <div className='work__filter'>
-            <span className='work__item'>Everything</span>
-            <span className='work__item'>Front-End</span>
-            <span className='work__item'>Back-End</span>
-            <span className='work__item'>Full-Stack</span>
-            <span className='work__item'>Dev-Ops</span>
+            <span className='work__item' onClick={() => setItem(Menu)}>Everything</span>
+            <span className='work__item' onClick={() => filterItem("Front-End")}>Front-End</span>
+            <span className='work__item' onClick={() => filterItem("Back-End")}>Back-End</span>
+            <span className='work__item' onClick={() => filterItem("Full-Stack")}>Full-Stack</span>
+            <span className='work__item' onClick={() => filterItem("Dev-Ops")}>Dev-Ops</span>
         </div>
 
         <div className='work__container grid'>
@@ -30,7 +37,7 @@ const Portfolio = () => {
                         
                         <span className='work__categoty'>{category}</span>
                         <h3 className='work__title'>{title}</h3>
-                        <a href="#" className='work__button'>
+                        <a href="https://github.com/oxyvans?tab=repositories" className='work__button'>
                             <i class="uil uil-link-alt"></i>
                         </a>
                     </div>
