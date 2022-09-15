@@ -24,6 +24,7 @@
 .work__card {
     position: relative;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .work__mask {
@@ -31,7 +32,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    height: 97%;
+    height: 100%;
     width: 100%;
     transition: .3s;
     opacity: 0; 
@@ -95,4 +96,24 @@
 .work__card:hover .work__categoty {
     opacity: 1;
     transform: translateY(0);
+}
+
+@media screen and (max-width: 992px) {
+    .work__container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work__container{
+        grid-template-columns: 310px;
+    }
+    .work__filter {
+        flex-wrap: wrap;
+    }
+    .work__item {
+        padding: .2rem;
+    }
 }
