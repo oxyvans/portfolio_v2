@@ -1,9 +1,12 @@
+.home {
+    height: 100vh;
+    display: flex;
+}
 .home__content {
-    height: 76vh;
     grid-template-columns: 116px repeat(2, 1fr);
-    padding-top: 2rem;
     column-gap: 2rem;
     align-items: center;
+    justify-content: center;
 }
 
 .home__social {
