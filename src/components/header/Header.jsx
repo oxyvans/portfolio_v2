@@ -41,7 +41,7 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item" onClick={closeMenu}>
-                        <a href="/" className="nav__link">
+                        <a href="#contact" className="nav__link">
                             <i class="uil uil-envelope-upload nav__icon"></i>Contact
                         </a>
                     </li>
